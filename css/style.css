@@ -1,0 +1,135 @@
+/* ---------- CONFIGURAÇÕES GERAIS ---------- */
+
+body {
+    font-family: Arial, sans-serif; /* Define a fonte principal do site */
+    margin: 0; /* Remove margens externas do body */
+    padding: 0; /* Remove preenchimento interno */
+    background-color: #fff8f0; /* Cor de fundo suave, estilo café */
+    color: #3e2c23; /* Cor do texto em marrom escuro */
+  }
+  
+  /* ---------- CABEÇALHO ---------- */
+  
+  header {
+    background-color: #6f4e37; /* Marrom café para o fundo do cabeçalho */
+    color: white; /* Texto branco no cabeçalho */
+    padding: 20px 0; /* Espaçamento interno superior e inferior */
+    text-align: center; /* Centraliza o conteúdo */
+  }
+  
+  header h1 {
+    font-size: 36px; /* Tamanho do título principal */
+    margin: 0; /* Remove margem extra */
+  }
+  
+  header p {
+    font-size: 18px; /* Tamanho da frase abaixo do título */
+    margin-top: 5px; /* Espaço acima da frase */
+  }
+  
+  /* ---------- MENU DE NAVEGAÇÃO ---------- */
+  
+  nav ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0; /* Remove o espaçamento interno */
+    margin: 0; /* Remove o espaçamento externo */
+    display: flex; /* Exibe os itens lado a lado */
+    justify-content: center; /* Centraliza os links horizontalmente */
+    background-color: #a47149; /* Tom de marrom claro para o menu */
+  }
+  
+  nav ul li {
+    margin: 0 15px; /* Espaçamento entre os itens do menu */
+  }
+  
+  nav ul li a {
+    color: white; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold; /* Deixa o texto mais destacado */
+    padding: 10px; /* Espaçamento ao redor dos links */
+    display: inline-block; /* Permite espaçamento interno */
+  }
+  
+  nav ul li a:hover {
+    background-color: #d6a77a; /* Cor de destaque ao passar o mouse */
+    border-radius: 5px; /* Borda arredondada no hover */
+  }
+  
+  /* ---------- SEÇÃO DO CARDÁPIO ---------- */
+  
+  section#menu {
+    padding: 40px 20px; /* Espaçamento interno da seção */
+    text-align: center; /* Centraliza o conteúdo */
+  }
+  
+  section#menu h2 {
+    font-size: 28px; /* Tamanho do subtítulo */
+    margin-bottom: 30px; /* Espaço abaixo do título */
+  }
+  
+  .cafés {
+    display: flex; /* Exibe os itens lado a lado */
+    justify-content: center; /* Centraliza os itens */
+    gap: 40px; /* Espaço entre os cafés */
+    flex-wrap: wrap; /* Permite quebrar linha em telas menores */
+  }
+  
+  .café {
+    background-color: #f3e5dc; /* Cor suave de fundo */
+    border-radius: 10px; /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    padding: 20px; /* Espaçamento interno */
+    width: 250px; /* Largura dos blocos de café */
+    transition: transform 0.3s; /* Animação suave ao passar o mouse */
+  }
+  
+  .café:hover {
+    transform: scale(1.05); /* Aumenta levemente ao passar o mouse */
+  }
+  
+  .café img {
+    width: 100%; /* Faz a imagem ocupar toda a largura do bloco */
+    border-radius: 8px; /* Arredonda as bordas da imagem */
+  }
+  
+  .café h3 {
+    margin-top: 15px; /* Espaço acima do nome do café */
+    font-size: 20px; /* Tamanho do nome do café */
+  }
+  
+  .café p {
+    font-size: 16px; /* Tamanho da descrição */
+    color: #5c4033; /* Marrom suave */
+  }
+  
+  /* ---------- SEÇÃO DE CONTATO ---------- */
+  
+  section#contato {
+    background-color: #eee0d5; /* Fundo claro para destaque */
+    padding: 40px 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto */
+  }
+  
+  section#contato h2 {
+    font-size: 26px; /* Tamanho do título */
+    margin-bottom: 10px; /* Espaço abaixo do título */
+  }
+  
+  section#contato p {
+    margin: 5px 0; /* Espaçamento entre as linhas de contato */
+  }
+  
+  /* ---------- RODAPÉ ---------- */
+  
+  footer {
+    background-color: #6f4e37; /* Mesma cor do cabeçalho */
+    color: white; /* Texto branco no rodapé */
+    text-align: center; /* Centraliza o texto */
+    padding: 15px 0; /* Espaçamento interno */
+    font-size: 14px; /* Tamanho do texto menor */
+  }
+  
+  html {
+    scroll-behavior: smooth; /* Ativa rolagem suave para links âncora */
+  }
+  
